@@ -141,7 +141,7 @@ export default function GameBoard({ gameMode, correctGuessCount, setCorrectGuess
     if (targetWords.length === 0) {
       // If we are inside this block, we are loading from the default state, which
       // could mean that we have 21 guesses from localStorage but 0 target words, which
-      // is going to trigger the end of the game unless we stop here
+      // is going to trigger the end of the game unless we stop here 
       return;
     }
 
